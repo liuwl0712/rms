@@ -1,0 +1,293 @@
+[
+  {
+    "id": "homePage",
+    "label": "首页",
+    "disabled": true,
+    "children": []
+  },
+  {
+    "id": "timing-task",
+    "label": "定时任务管理",
+    "children": [
+      {
+        "id": "newTimingTask",
+        "label": "新增定时任务"
+      },
+      {
+        "id": "editTimingTask",
+        "label": "编辑定时任务"
+      },
+      {
+        "id": "pauseTimedTask",
+        "label": "暂停定时任务"
+      },
+      {
+        "id": "resumeTimingTask",
+        "label": "恢复定时任务"
+      },
+      {
+        "id": "deleteScheduledTask",
+        "label": "删除定时任务"
+      }
+    ]
+  },
+  {
+    "id": "static-management",
+    "label": "静态资源管理",
+    "children": [
+      {
+        "id": "addStaticData",
+        "label": "新增静态数据"
+      },
+      {
+        "id": "editStaticData",
+        "label": "编辑静态数据"
+      },
+      {
+        "id": "deleteStaticData",
+        "label": "删除静态数据"
+      },
+      {
+        "id": "cleanUpCache",
+        "label": "清理静态数据缓存"
+      }
+    ]
+  },
+  {
+    "id": "systemManagement",
+    "label": "系统管理",
+    "children": [
+      {
+        "label": "用户管理",
+        "id": "user-management",
+        "children": [
+          {
+            "id": "newUsers",
+            "label": "新增用户"
+          },
+          {
+            "id": "editUser",
+            "label": "编辑用户"
+          },
+          {
+            "id": "resetPassword",
+            "label": "重置密码"
+          },
+          {
+            "id": "deleteUser",
+            "label": "删除用户"
+          }
+        ]
+      },
+      {
+        "label": "角色管理",
+        "id": "role-management",
+        "children": [
+          {
+            "id": "newRole",
+            "label": "新增角色"
+          },
+          {
+            "id": "deleteRole",
+            "label": "删除角色"
+          },
+          {
+            "id": "rolePermissions",
+            "label": "角色权限"
+          },
+          {
+            "id": "editRole",
+            "label": "修改角色"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "paymentDataSource",
+    "label": "酬金数据源",
+    "children": [
+      {
+        "label": "数据录入",
+        "id": "data-entry",
+        "children": [
+          {
+            "id": "downloadView",
+            "label": "文件下载"
+          },
+          {
+            "id": "fileUpload",
+            "label": "文件上传"
+          }
+        ]
+      },
+      {
+        "label": "指标同步记录",
+        "id": "index-synchronization-record",
+        "children": []
+      },
+      {
+        "label": "众包酬金结算数据",
+        "id": "crowd-remuner-data-settle",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "rewardIndex",
+    "label": "酬金指标",
+    "children": [
+      {
+        "label": "折算系数管理",
+        "id": "configuring-coefficient-management",
+        "children": [
+          {
+            "id": "newCoefficient",
+            "label": "新增系数"
+          },
+          {
+            "id": "deletionCoefficient",
+            "label": "删除系数"
+          },
+          {
+            "id": "editCoefficient",
+            "label": "修改系数"
+          }
+        ]
+      },
+      {
+        "label": "指标管理",
+        "id": "indicator-management",
+        "children": [
+          {
+            "id": "newIndex",
+            "label": "新增指标"
+          },
+          {
+            "id": "deleteIndex",
+            "label": "删除指标"
+          },
+          {
+            "id": "editIndex",
+            "label": "修改指标"
+          },
+          {
+            "id": "copyIndex",
+            "label": "复制指标"
+          }
+        ]
+      },
+      {
+        "label": "指标规则关系管理",
+        "id": "indicator-rule-relationship-management",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "remunerationRules",
+    "label": "酬金规则",
+    "children": [
+      {
+        "label": "规则管理",
+        "id": "rule-management",
+        "children": [
+          {
+            "id": "newRules",
+            "label": "新增规则"
+          },
+          {
+            "id": "copyRules",
+            "label": "复制规则"
+          },
+          {
+            "id": "deleteRule",
+            "label": "删除规则"
+          },
+          {
+            "id": "editRule",
+            "label": "编辑规则"
+          },
+          {
+            "id": "ruleVersion",
+            "label": "规则历史版本"
+          }
+        ]
+      },
+      {
+        "label": "对象管理",
+        "id": "object-management",
+        "children": []
+      },
+      {
+        "label": "因子管理",
+        "id": "factor-management",
+        "children": [
+          {
+            "id": "newFactor",
+            "label": "新增因子"
+          },
+          {
+            "id": "deleteFactor",
+            "label": "删除因子"
+          },
+          {
+            "id": "editFactor",
+            "label": "修改因子"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "remunerationCalculation",
+    "label": "酬金计算",
+    "children": [
+      {
+        "label": "指标模板管理",
+        "id": "index-template-management",
+        "children": [
+          {
+            "id": "newIndicatorTemplate",
+            "label": "新增指标模板"
+          },
+          {
+            "id": "copyIndicatorTemplate",
+            "label": "复制指标模板"
+          },
+          {
+            "id": "deleteIndicatorTemplate",
+            "label": "删除指标模板"
+          },
+          {
+            "id": "editIndicatorTemplate",
+            "label": "编辑指标模板"
+          },
+          {
+            "id": "calculation",
+            "label": "计算"
+          }
+        ]
+      },
+      {
+        "label": "满意度酬金计算",
+        "id": "satisfaction-compensation-calculation",
+        "children": []
+      },
+      {
+        "label": "酬金计算",
+        "id": "remuneration-calculation",
+        "children": [
+          {
+            "id": "exportResultDetails",
+            "label": "导出结果明细"
+          },
+          {
+            "id": "exportResultSummary",
+            "label": "导出结果汇总"
+          }
+        ]
+      }
+    ]
+  }
+]

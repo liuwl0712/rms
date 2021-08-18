@@ -1,0 +1,20 @@
+[
+  {
+    "id": "homePage",
+    "index": "homePage",
+    "name": "首页",
+    "children": []
+  },
+  {
+    "id": "timing-task",
+    "index": "timing-task",
+    "name": "定时任务管理",
+    "children": []
+  },
+  {
+    "id": "static-management",
+    "index": "static-management",
+    "name": "静态资源管理",
+    "children": []
+  }
+]

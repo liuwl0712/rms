@@ -1,0 +1,160 @@
+[
+  {
+    "id": "systemManagement",
+    "index": "systemManagement",
+    "name": "系统管理",
+    "icon": "el-icon-setting",
+    "children": [
+      {
+        "id": "user-management",
+        "index": "user-management",
+        "name": "用户管理",
+        "children": []
+      },
+      {
+        "id": "role-management",
+        "index": "role-management",
+        "name": "角色管理",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "paymentDataSource",
+    "index": "paymentDataSource",
+    "name": "酬金数据源",
+    "icon": "el-icon-c-scale-to-original",
+    "children": [
+      {
+        "id": "data-entry",
+        "index": "data-entry",
+        "name": "数据录入"
+      },
+      {
+        "id": "index-synchronization-record",
+        "index": "index-synchronization-record",
+        "name": "指标同步记录"
+      },
+      {
+        "id": "crowd-remuner-data-settle",
+        "index": "crowd-remuner-data-settle",
+        "name": "众包酬金结算数据"
+      }
+    ]
+  },
+  {
+    "id": "rewardIndex",
+    "index": "rewardIndex",
+    "name": "酬金指标",
+    "icon": "el-icon-set-up",
+    "children": [
+      {
+        "id": "configuring-coefficient-management",
+        "index": "configuring-coefficient-management",
+        "name": "折算系数管理"
+      },
+      {
+        "id": "indicator-management",
+        "index": "indicator-management",
+        "name": "指标管理"
+      },
+      {
+        "id": "indicator-rule-relationship-management",
+        "index": "indicator-rule-relationship-management",
+        "name": "指标规则关系管理"
+      }
+    ]
+  },
+  {
+    "id": "remunerationRules",
+    "index": "remunerationRules",
+    "name": "酬金规则",
+    "icon": "el-icon-postcard",
+    "children": [
+      {
+        "id": "rule-management",
+        "index": "rule-management",
+        "name": "规则管理"
+      },
+      {
+        "id": "object-management",
+        "index": "object-management",
+        "name": "对象管理"
+      },
+      {
+        "id": "factor-management",
+        "index": "factor-management",
+        "name": "因子管理"
+      }
+    ]
+  },
+  {
+    "id": "remunerationCalculation",
+    "index": "remunerationCalculation",
+    "name": "酬金计算",
+    "icon": "el-icon-edit-outline",
+    "children": [
+      {
+        "id": "index-template-management",
+        "index": "index-template-management",
+        "name": "指标模板管理"
+      },
+      {
+        "id": "satisfaction-compensation-calculation",
+        "index": "satisfaction-compensation-calculation",
+        "name": "满意度酬金计算"
+      },
+      {
+        "id": "remuneration-calculation",
+        "index": "remuneration-calculation",
+        "name": "酬金计算"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "index": "6",
+    "name": "酬金结果",
+    "icon": "el-icon-printer",
+    "children": [
+      {
+        "id": "6-1",
+        "index": "6-1",
+        "name": "酬金结果"
+      },
+      {
+        "id": "6-2",
+        "index": "6-2",
+        "name": "预演结果分析"
+      },
+      {
+        "id": "6-3",
+        "index": "6-3",
+        "name": "结果血缘分析"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "index": "7",
+    "name": "酬金稽核",
+    "icon": "el-icon-collection-tag",
+    "children": [
+      {
+        "id": "7-1",
+        "index": "7-1",
+        "name": "稽核规则管理"
+      },
+      {
+        "id": "7-2",
+        "index": "7-2",
+        "name": "稽核任务管理"
+      },
+      {
+        "id": "7-3",
+        "index": "7-3",
+        "name": "稽核预警管理"
+      }
+    ]
+  }
+]

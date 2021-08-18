@@ -1,0 +1,202 @@
+.home {
+    height: 100%;
+
+    .el-container {
+        height: 100%;
+
+        .el-header {
+            height: $headerHight !important;
+            background: $themeColor;
+            line-height: $headerHight;
+            position: relative;
+
+            .header-header {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                left: 40px;
+
+                .header-header-image {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 20px;
+                    width: 30px;
+                    height: 30px;
+                }
+
+                .header-title {
+                    display: inline-block;
+                    color: #ffffff;
+                    font-size: 26px;
+                    width: 160px;
+                }
+            }
+
+
+            .header-menu-demo {
+                position: absolute;
+                bottom: $defaultFontSize;
+                left: 400px;
+                border: none;
+
+                .el-menu-item {
+                    font-size: $defaultFontSize;
+                    margin: 0px 30px;
+                }
+
+                .el-submenu {
+                    .el-submenu__title {
+                        font-size: $defaultFontSize;
+                    }
+                }
+            }
+
+            .header-user {
+                height: $headerHight;
+                position: absolute;
+                bottom: 0px;
+                right: $headerLeft;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .header-user-avatar {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+
+                .header-user-name {
+                    color: #e6a23c;
+                    margin-left: 20px;
+                    margin-right: 10px;
+                }
+
+                .el-icon-refresh {
+                    color: #ffffff;
+                    font-size: 28px;
+                    font-weight: 900;
+                    margin: 10px;
+                    cursor: pointer;
+                }
+
+                .header-user-back {
+                    width: 26px;
+                    height: 26px;
+                    margin-left: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .home-tags {
+            padding: 10px 0px;
+
+            .el-tag {
+                font-size: 14px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+        }
+
+        .el-aside {
+            width: 280px !important;
+            overflow: hidden;
+
+            .nav-menu {
+                width: 280px;
+                height: 100%;
+                background-color: rgb(0, 21, 41);
+                overflow: auto;
+
+                .el-menu-demo {
+                    margin-bottom: 100px;
+                    border-right: none;
+
+                    .el-submenu__title,
+                    .el-menu-item {
+                        font-size: 19px;
+                        margin: 10px 10px;
+                    }
+
+                }
+            }
+
+            /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+            .nav-menu::-webkit-scrollbar {
+                width: 0px;
+                /*滚动条宽度*/
+                height: 0px;
+                /*滚动条高度*/
+            }
+
+            /*定义滚动条轨道 内阴影+圆角*/
+            .nav-menu::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 0px #fff;
+                box-shadow: inset 0 0 0px #fff;
+                border-radius: 0px;
+                /*滚动条的背景区域的圆角*/
+                background-color: #fff;
+                /*滚动条的背景颜色*/
+            }
+
+            /*定义滑块 内阴影+圆角*/
+            .nav-menu::-webkit-scrollbar-thumb {
+                border-radius: 0px;
+                /*滚动条的圆角*/
+                -webkit-box-shadow: inset 0 0 0px #fff;
+                box-shadow: inset 0 0 0px #fff;
+                background-color: #c0c4cc;
+                /*滚动条的背景颜色*/
+            }
+        }
+
+
+        .el-main {
+            padding: 0px 20px;
+            margin-bottom: 80px;
+
+            .main {
+                background: #fff;
+                padding: 20px 40px;
+                min-height: 930px;
+            }
+        }
+    }
+}
+
+.zt-radius {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.dd {
+    background: #409eff;
+}
+
+.zs {
+    background: #e6a23c;
+}
+
+.zc {
+    background: #67c23a;
+}
+
+.zt {
+    background: #909399;
+}
+
+.cw {
+    background: #f56c6c;
+}
+
+.el-dropdown-menu__item {
+    padding: 5px 20px;
+    font-size: 18px;
+}

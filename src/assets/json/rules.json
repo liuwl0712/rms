@@ -1,0 +1,56 @@
+{
+  "jobName": [{ "required": true, "message": "请输入任务名称", "trigger": "change" }],
+  "jobGroupName": [{ "required": true, "message": "请输入任务所在组", "trigger": "change" }],
+  "indexType": [{ "required": true, "message": "请选择因素名称", "trigger": "change" }],
+  "cronExpression": [{ "required": true, "message": "请输入时间表达式", "trigger": "change" }],
+  "codeType": [{ "required": true, "message": "请输入编码类型", "trigger": "change" }],
+  "codeValue": [{ "required": true, "message": "请输入编码值", "trigger": "change" }],
+  "codeName": [{ "required": true, "message": "请输入编码名称", "trigger": "change" }],
+  "userCode": [
+    { "required": true, "message": "请输入用户名", "trigger": "change" },
+    { "min": 3, "max": 20, "message": "长度在 3 到 20 个字符", "trigger": "blur" }
+  ],
+  "userName": [
+    { "required": true, "message": "请输入姓名", "trigger": "change" },
+    { "min": 2, "max": 10, "message": "长度在 2 到 10 个字符", "trigger": "blur" }
+  ],
+  "roleIds": [{ "required": true, "message": "请选择角色", "trigger": "change" }],
+  "phoneNum": [{ "required": true, "message": "请输入手机号码", "trigger": "change" }],
+  "userState": [{ "required": true, "message": "请选择用户状态", "trigger": "change" }],
+  "email": [{ "required": true, "message": "请输入邮箱", "trigger": "change" }],
+  "roleName": [
+    { "required": true, "message": "请输入角色名称", "trigger": "change" },
+    { "min": 2, "max": 10, "message": "长度在 2 到 10 个字符", "trigger": "blur" }
+  ],
+  "roleState": [{ "required": true, "message": "请选择角色状态", "trigger": "change" }],
+  "roleCode": [
+    { "required": true, "message": "请输入角色编码", "trigger": "change" },
+    { "min": 2, "max": 10, "message": "长度在 2 到 10 个字符", "trigger": "blur" }
+  ],
+  "kpiName": [{ "required": true, "message": "请输入指标名称", "trigger": "change" }],
+  "kpiKind": [{ "required": true, "message": "请选择指标类型", "trigger": "change" }],
+  "packageType": [{ "required": true, "message": "请选择包类型", "trigger": "change" }],
+  "ruleId": [{ "required": true, "message": "请关联规则", "trigger": "change" }],
+  "kpiDesc": [{ "required": true, "message": "请输入指标描述", "trigger": "change" }],
+  "itemName": [{ "required": true, "message": "请输入系数名称", "trigger": "change" }],
+  "coefficientType": [{ "required": true, "message": "请选择系数类型", "trigger": "change" }],
+  "mode": [{ "required": true, "message": "请选择取值模式", "trigger": "change" }],
+  "itemDesc": [{ "required": true, "message": "请输入系数描述", "trigger": "change" }],
+  "itemValue": [{ "required": true, "message": "请输入取值", "trigger": "change" }],
+  "attrName": [{ "required": true, "message": "请输入因子名称", "trigger": "change" }],
+  "attrCode": [{ "required": true, "message": "请输入因子编码", "trigger": "change" }],
+  "attrKind": [{ "required": true, "message": "请选择因子类型", "trigger": "change" }],
+  "objectId": [{ "required": true, "message": "请选择对象名称", "trigger": "change" }],
+  "ruleName": [{ "required": true, "message": "请输入规则名称", "trigger": "change" }],
+  "ruleType": [{ "required": true, "message": "请选择规则类型", "trigger": "change" }],
+  "ruleDesc": [{ "required": true, "message": "请输入规则描述", "trigger": "change" }],
+  "ruleExp": [{ "required": true, "message": "请输入规则算法", "trigger": "change" }],
+  "yearMonth": [{ "required": true, "message": "选择指标模板月份", "trigger": "change" }],
+  "templateName": [{ "required": true, "message": "请输入模板名称", "trigger": "change" }],
+  "templateDesc": [{ "required": true, "message": "请输入模板描述", "trigger": "change" }],
+  "before": [{ "required": true, "message": "请选择关联指标", "trigger": "change" }],
+  "kpiId": [{ "required": true, "message": "请选择关联指标", "trigger": "change" }],
+  "weightType": [{ "required": true, "message": "请选择权重类型", "trigger": "change" }],
+  "weight": [{ "required": true, "message": "请输入指标权重", "trigger": "change" }],
+  "itemCode": [{ "required": true, "message": "请选择编码", "trigger": "change" }]
+}
